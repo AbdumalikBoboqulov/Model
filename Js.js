@@ -19,3 +19,9 @@ closeModalButton.addEventListener("click", closeModal);
 document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") closeModal();
 });
+
+const openModelBtn = document.querySelector(".btn_openModel");
+
+openModelBtn.addEventListener("click", function () {
+  document.body.style.backgroundColor = "#333";
+});
